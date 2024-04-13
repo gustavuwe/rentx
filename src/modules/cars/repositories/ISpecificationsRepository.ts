@@ -5,7 +5,6 @@ interface ICreateSpecificationDTO {
     description: string;
 }
 
-
 interface ISpecificationsRepository {
     create({ description, name }: ICreateSpecificationDTO): void
     findByName(name: string): Specification; //retorna uma specificação se encontrar

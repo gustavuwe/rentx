@@ -5,7 +5,6 @@ import {
 
 import { Specification } from "../../model/Specification";
 
-
 class SpecificationsRepository implements ISpecificationsRepository {
     private specifications: Specification[];
 

@@ -12,8 +12,8 @@ const upload = multer({
     dest: "./tmp"
 })
 
-categoriesRoutes.post("/", (request, response) => {
-    console.log("reload a")
+categoriesRoutes.post("/", (request, response) => { 
+    console.log("reload funcionando")
     return createCategoryController.handle(request, response)
 })
 
